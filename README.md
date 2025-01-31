@@ -19,6 +19,7 @@ pip install -U pip setuptools pipenv && pipenv install
   - `BOT_TOKEN` - токен telegram-бота
   - `WEBHOOK_URL` - URL сервера для отправки веб-хуков
   - `DB_NAME` - база с белым списком
+ 
 - Создать файл `{DB_NAME}.db` в котором будут перечислены telegram ID пользователей, входящих в белый список
 
 ## Запуск проекта
