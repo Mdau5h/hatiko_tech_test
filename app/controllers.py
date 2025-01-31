@@ -1,5 +1,3 @@
-import json
-import pprint
 from httpx import AsyncClient, HTTPStatusError
 from fastapi import HTTPException, status
 from api.serializers.request import IMEIInfoRequest
